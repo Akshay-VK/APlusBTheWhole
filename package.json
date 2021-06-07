@@ -1,0 +1,32 @@
+{
+  "name": "aplusbthewhole",
+  "version": "1.0.0",
+  "description": "A website that gives the expansion of (a+b)^anything..upto 20",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akshay-VK/APlusBTheWhole.git"
+  },
+  "author": "Karuvathil Akshay Vijaykumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Akshay-VK/APlusBTheWhole/issues"
+  },
+  "homepage": "https://github.com/Akshay-VK/APlusBTheWhole#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.4",
+    "ts-jest": "^27.0.3"
+  }
+}
